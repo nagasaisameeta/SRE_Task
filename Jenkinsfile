@@ -31,7 +31,7 @@ node{
                                 groupId: 'in.ravi',
                                 nexusUrl: 'http://54.157.31.62:8081/repository/sairelese/',
                                 nexusVersion: 'nexus3',
-                                repository: 'Sidgsrelease/',
+                                repository: 'sairelese/',
                                 protocol: 'http',
                                 version: '2.0.0'
                         }
