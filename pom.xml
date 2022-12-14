@@ -21,8 +21,8 @@
 
 <distributionManagement>
         <repository>
-                <id>Sidgsrelease</id>
-                <url>http://54.221.191.23:8081/repository/Sidgsrelease/</url>
+                <id>sairelese</id>
+                <url>http://54.157.31.62:8081/repository/sairelese/</url>
                 <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
