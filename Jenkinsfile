@@ -5,19 +5,10 @@ node{
                 }
 
                 stage('Maven Build'){
-                def mavenHome = tool name: "Maven-3.8.6", type: "maven"
+                def mavenHome = tool name: "Maven-3.6.3", type: "maven"
                 def mavenCMD = "${mavenHome}/bin/mvn"
                 sh "${mavenCMD} clean package"
                 }
-
-                stage('SonarQube analysis') {
-                withSonarQubeEnv('Sonar-Server-7.8') {
-                def mavenHome = tool name: "Maven-3.8.6", type: "maven"
-                def mavenCMD = "${mavenHome}/bin/mvn"
-                sh "${mavenCMD} sonar:sonar"
-                }
-        }
-
                 stage('upload war to nexus'){
                         nexusArtifactUploader artifacts: [
                         [
@@ -27,11 +18,11 @@ node{
                                 type: 'war'
                                 ]
                         ],
-                                credentialsId: 'nexus3',
+                                credentialsId: 'nexus',
                                 groupId: 'in.ravi',
-                                nexusUrl: 'http://54.157.31.62:8081/repository/sairelese/',
-                                nexusVersion: 'nexus3',
-                                repository: 'sairelese/',
+                                nexusUrl: 'http://54.237.223.51:8081/repository/sairelease/',
+                                nexusVersion: 'nexus',
+                                repository: 'sairelease/',
                                 protocol: 'http',
                                 version: '2.0.0'
                         }
