@@ -27,7 +27,7 @@ node{
                                 type: 'war'
                                 ]
                         ],
-                                credentialsId: 'nexus3',
+                                credentialsId: 'nexus',
                                 groupId: 'in.ravi',
                                 nexusUrl: 'http://54.221.191.23:8081/repository/Sidgsrelease/',
                                 nexusVersion: 'nexus3',
