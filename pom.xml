@@ -21,8 +21,8 @@
 
 <distributionManagement>
         <repository>
-                <id>sairelese</id>
-                <url>http://54.157.31.62:8081/repository/sairelese/</url>
+                <id>sairelease</id>
+                <url>http://54.237.223.51:8081/repository/sairelease/</url>
                 <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
