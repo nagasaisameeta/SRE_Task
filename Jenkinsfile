@@ -27,11 +27,11 @@ node{
                                 type: 'war'
                                 ]
                         ],
-                                credentialsId: 'nexus3',
+                                credentialsId: 'nexus',
                                 groupId: 'in.ravi',
-                                nexusUrl: 'http://54.221.191.23:8081/repository/Sidgsrelease/',
+                                nexusUrl: 'http://54.237.223.51:8081/repository/sairelease/',
                                 nexusVersion: 'nexus3',
-                                repository: 'Sidgsrelease/',
+                                repository: 'sairelease/',
                                 protocol: 'http',
                                 version: '2.0.0'
                         }
