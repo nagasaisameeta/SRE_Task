@@ -20,7 +20,7 @@ node{
                         ],
                                 credentialsId: 'nexus',
                                 groupId: 'in.ravi',
-                                nexusUrl: 'http://54.237.223.51:8081/repository/sairelease/',
+                                nexusUrl: 'http://54.146.233.12:8081/repository/sairelease/',
                                 nexusVersion: 'nexus',
                                 repository: 'sairelease/',
                                 protocol: 'http',
